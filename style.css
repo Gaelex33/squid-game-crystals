@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+}
+
+#game-board {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.crystal {
+  width: 60px;
+  height: 60px;
+  background-color: #00f;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.crystal.safe {
+  background-color: #0f0;
+}
+
+.crystal.broken {
+  background-color: #f00;
+}
+
+.player {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#restart-btn:hover {
+  background-color: #666;
+}
+
+#results {
+  margin-top: 20px;
+  font-size: 18px;
+}
